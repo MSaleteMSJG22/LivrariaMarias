@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block maindapagina %}
+
+
+    <h3 style="font-size: 60px;">Confira nossos produtos</h3>
+
+    <div class="row teste" >
+
+    {% for produto in produtos %}
+        
+    
+    <div class="card mb-3" style="width: 450px;" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/media/{{ produto.imagem }}" class="imgProduto" alt="product-image" width="140px">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p style="font-size:20px" class="card-title">{{ produto.nome }}</p>
+                <p style="font-size: 15px;" class="card-text">{{ produto.descricao}}</p>
+                <h4>R${{ produto.valor}} <a href="{% url 'detalhes' produto.id %}" class="btn btn-primary">Detalhar</a></h4>
+            </div>
+          </div>
+        </div>
+    </div>
+
+                                    
+    {% endfor %}
+
+</div>
+    
+{% endblock %}

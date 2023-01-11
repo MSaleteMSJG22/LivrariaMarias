@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cookie&family=Courgette&family=Dancing+Script:wght@500&family=DynaPuff:wght@400;500&family=Great+Vibes&family=Indie+Flower&family=Josefin+Slab:wght@200;300;400&family=Noto+Sans&family=Nova+Mono&family=Permanent+Marker&family=Sacramento&family=Shadows+Into+Light&display=swap');
+
+body{ 
+    background-color: white;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;   
+}
+
+.btn-primary:hover{
+    background-color:  #ff9897;
+}
+
+.btn-primary{
+    margin-left: 50px;
+    font-family: 'Nova Mono', 'monoespaçado';
+    margin-bottom: 15px;
+
+}
+
+header{
+    background-color:  #f6d700;
+}
+
+a{
+    text-decoration: none;    
+}
+
+.assinatura{
+    font-family: 'Sacramento', 'cursive';
+}
+.icons{
+    color: #8067ff;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.pfoo{
+    font-size: 30px;
+    color: #F5F5F5;
+    
+}
+.pft{
+    color: #F5F5F5;
+    font-size: 18px;
+    padding-bottom:10px ;
+}
+.inicio{
+    font-size: 45px;
+    font-family: 'Shadows Into Light', 'cursiva';
+    color: black;
+
+}
+
+.iconlivro{
+    color: #8067ff;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+.iconfooter{
+    color:white;
+}
+
+.iconfooter:hover, .iconcarrinho:hover, .iconlivro:hover, .icons:hover{
+    color:#ff9897
+}
+
+.iconcarrinho{
+    color: #8067ff;
+    padding-right: 30px;
+    padding-left: 10px;
+
+}
+footer{
+    background-color: #8067ff;
+    margin-top: auto;
+}
+
+.imagemlogo{
+    text-align: center;
+}
+.logo{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.estrelas{
+    color: #f6d700;
+}
+.pafooter{
+    color: white;
+    text-align: center;
+}
+
+.nav-item .nav-link:hover{
+    color: #ff9897;
+}
+
+form .btn{
+    margin-right: 30px;
+}
+
+.form-control{
+    padding-right: 5em;
+}
+
+form .btn:hover {
+    background-color: #ff9897;
+}
+
+.card{
+    padding: 20px;
+}
+
+h4{
+    padding-top: 20px;
+    font-family: 'Classica', Garamond;
+}
+
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color:#8067ff;
+    border: none;
+    color: white;
+    cursor: pointer;  
+}
+
+.nav-link{
+    color: #8067ff;
+}
+
+
+h1{
+    font-size:45px;
+    color:black;
+    text-align: center;
+    font-family:'Shadows Into Light', 'cursiva';
+
+}
+
+h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Shadows Into Light', 'cursiva';
+}
+
+
+p, .pa{
+    font-size: 20px;
+    color: #222020;
+    margin: auto;  
+}
+
+.Oi{
+    
+    color: #F5F5F5;
+}
+h3{
+    text-align: center;
+    color: #222020;
+    margin: auto;
+    font-family:  'Great Vibes', 'cursive';
+}
+
+.infomain{
+    margin: auto;
+    padding-left: 100px;
+
+}
+
+.teste{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
